@@ -7,12 +7,15 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="Stylesheet.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <form id="form1" runat="server">
         <nav>
             <a href="default.aspx">Home</a>
-            <a href="products.aspx">Products</a>
+            <a href="guide.aspx">| Buying guide</a>
+            <a href="gears.aspx">| Headphones/Earphones</a>
+            <a href="source.aspx">| Amp/DAC/DAP</a>
         
         </nav>
     <div>
