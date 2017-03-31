@@ -112,6 +112,7 @@
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="products.aspx" />
+    <Content Include="Stylesheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
