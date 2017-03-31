@@ -4,8 +4,10 @@
 
 }
 
-footer { 
+footer,li { 
     text-align: center;
+    list-style:none;
+   	clear: left;  
 
 }
 
@@ -13,3 +15,34 @@ body{
     margin: 20px;
 
 }
+
+h1{
+    text-align: center;
+}
+
+
+.box {
+    margin: 40px;
+}
+
+/*Homepage CSS*/
+
+#images {
+    text-align: center;
+   
+}
+
+/*product display*/
+
+.products {
+
+   margin: 20px;
+   padding: 30px;
+   max-width: 440px;
+   height: 495px;
+   float: left;
+   border: solid black 1px;
+   text-align: center;
+    width: 474px;
+}
+

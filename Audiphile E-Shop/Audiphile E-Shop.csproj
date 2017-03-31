@@ -110,10 +110,41 @@
     <Content Include="about.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
-    <Content Include="gears.aspx" />
+    <Content Include="Headphones.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="guide.aspx" />
-    <Content Include="products.aspx" />
+    <Content Include="Amplifiers.aspx" />
+    <Content Include="earphones.aspx" />
+    <Content Include="Image\ATH-M50X\ath_m50x_1_sq.jpg" />
+    <Content Include="Image\ATH-M50X\ath_m50x_2_sq.jpg" />
+    <Content Include="Image\ATH-M50X\ath_m50x_3_sq.jpg" />
+    <Content Include="Image\ATH-M50X\ath_m50x_4_sq.jpg" />
+    <Content Include="Image\ATH-M50X\ath_m50x_5_sq.jpg" />
+    <Content Include="Image\ATH-M50X\ath_m50x_6_sq.jpg" />
+    <Content Include="Image\ATH-M50X\ath_m50x_7_sq.jpg" />
+    <Content Include="Image\ATH-M50X\ath_m50x_8_sq.jpg" />
+    <Content Include="Image\ATH-M50X\ath_m50x_bk_wh_gp_1_sq.jpg" />
+    <Content Include="Image\ATH-M50X\homem50x.jpg" />
+    <Content Include="Image\ATH-M50X\_vti_cnf\ath_m50x_2_sq.jpg" />
+    <Content Include="Image\Beyerdynamic dt770\DT770PRO_80_3c_01.jpg" />
+    <Content Include="Image\Fiio X5II\x5ii_1.png" />
+    <Content Include="Image\Fiio X5II\x5ii_2.png" />
+    <Content Include="Image\Fiio X5II\x5ii_3.png" />
+    <Content Include="Image\Fiio X5II\x5ii_4.jpg" />
+    <Content Include="Image\Fiio X5II\x5ii_5.jpg" />
+    <Content Include="Image\Fiio X5II\x5ii_6.jpg" />
+    <Content Include="Image\Fiio X5II\_vti_cnf\x5ii_1.png" />
+    <Content Include="Image\RHA MA750\Ma750_1.jpg" />
+    <Content Include="Image\RHA MA750\Ma750_2.jpg" />
+    <Content Include="Image\RHA MA750\Ma750_3.jpg" />
+    <Content Include="Image\RHA MA750\Ma750_4.jpg" />
+    <Content Include="Image\RHA MA750\_vti_cnf\Ma750_1.jpg" />
+    <Content Include="Image\Sennheiser Momentum 2.0\Momentum_1.jpg" />
+    <Content Include="Image\Sennheiser Momentum 2.0\Momentum_2.jpg" />
+    <Content Include="Image\Sennheiser Momentum 2.0\Momentum_3.jpg" />
+    <Content Include="Image\Sennheiser Momentum 2.0\Momentum_4.jpg" />
+    <Content Include="Image\Sennheiser Momentum 2.0\Momentum_5.jpg" />
+    <Content Include="Image\Sennheiser Momentum 2.0\Momentum_6.jpg" />
+    <Content Include="Image\Sennheiser Momentum 2.0\_vti_cnf\Momentum_1.jpg" />
     <Content Include="source.aspx" />
     <Content Include="Stylesheet.css" />
     <Content Include="Web.config" />
@@ -140,22 +171,22 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="gears.aspx.cs">
-      <DependentUpon>gears.aspx</DependentUpon>
+    <Compile Include="Headphones.aspx.cs">
+      <DependentUpon>Headphones.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="gears.aspx.designer.cs">
-      <DependentUpon>gears.aspx</DependentUpon>
+    <Compile Include="Headphones.aspx.designer.cs">
+      <DependentUpon>Headphones.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="guide.aspx.cs">
-      <DependentUpon>guide.aspx</DependentUpon>
+    <Compile Include="Amplifiers.aspx.cs">
+      <DependentUpon>Amplifiers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="guide.aspx.designer.cs">
-      <DependentUpon>guide.aspx</DependentUpon>
+    <Compile Include="Amplifiers.aspx.designer.cs">
+      <DependentUpon>Amplifiers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masterpage.Master.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
@@ -164,12 +195,12 @@
     <Compile Include="Masterpage.Master.designer.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
     </Compile>
-    <Compile Include="products.aspx.cs">
-      <DependentUpon>products.aspx</DependentUpon>
+    <Compile Include="earphones.aspx.cs">
+      <DependentUpon>earphones.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products.aspx.designer.cs">
-      <DependentUpon>products.aspx</DependentUpon>
+    <Compile Include="earphones.aspx.designer.cs">
+      <DependentUpon>earphones.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="source.aspx.cs">

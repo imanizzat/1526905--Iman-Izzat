@@ -9,13 +9,18 @@
     </asp:ContentPlaceHolder>
     <link href="Stylesheet.css" rel="stylesheet" type="text/css"/>
 </head>
+    
 <body>
+    <header>
+        <h1>Audiophile E-Shop Ltd</h1>
+    </header>
     <form id="form1" runat="server">
         <nav>
             <a href="default.aspx">Home</a>
-            <a href="guide.aspx">| Buying guide</a>
-            <a href="gears.aspx">| Headphones/Earphones</a>
-            <a href="source.aspx">| Amp/DAC/DAP</a>
+            <a href="Headphones.aspx">| Headphones</a>
+            <a href="earphones.aspx">| IEMs & Earphones</a>
+            <a href="amplifiers.aspx">| Amplifiers</a>
+            <a href="source.aspx">| Source</a>
         
         </nav>
     <div>
@@ -24,12 +29,14 @@
         
         </asp:ContentPlaceHolder>
     </div>
-        <footer>
+     
+    </form>
+       <footer>
             <ul>
                 <li><a href="Contact.aspx">Contact us</a></li>
                 <li><a href="About.aspx">About us</a></li>
             </ul>
         </footer>
-    </form>
 </body>
+
 </html>
