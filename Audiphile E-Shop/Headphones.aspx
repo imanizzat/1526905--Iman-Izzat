@@ -9,9 +9,9 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <article>
        <div class="products">
-        <img src="Image/ATH-M50X/ath_m50x_1_sq.jpg" />&nbsp;
+        <img src="Image/ATH-M50X/ath_m50x_1_sq.jpg" style="height: 316px; width: 301px" />&nbsp;
            <br />
             <a href="#">
                 <strong>Audio Technica ATH-M50X</strong>
@@ -43,10 +43,10 @@
             </a>
                 <p><em>BND$400</em></p>
             
-                <asp:Button ID="txtID03" runat="server" Text="Button" />
+                <asp:Button ID="txtID03" runat="server" Text="Add to cart" />
               
         </div>
- 
+    </article>
            
 
 </asp:Content>

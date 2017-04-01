@@ -1,7 +1,51 @@
 ﻿nav {
     padding: 10px;
     text-align: center;
+    background-color: gainsboro;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 22px;
+    color: white;
+    
+    
+  
 
+}
+ul{
+   display: inline-block;
+   list-style: none;
+   float: left;
+}
+ul li{
+    float: left;
+}
+
+ul li a {
+    color: white;
+}
+
+    nav a:link{
+         text-decoration: none;
+       
+    }
+
+    a:visited{
+        text-decoration:none;
+      
+    }
+
+
+    a:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
+    
+a {
+    text-decoration-color: gray;
 }
 
 footer,li { 
@@ -36,13 +80,27 @@ h1{
 
 .products {
 
-   margin: 20px;
+  /* margin: 20px;
    padding: 30px;
-   max-width: 440px;
-   height: 495px;
+   max-width: 300px;
+   height: 405px;
    float: left;
    border: solid black 1px;
    text-align: center;
-    width: 474px;
+   width: 474px;
+      */
+  display: inline-block;
+  margin: 10px;
+  padding: 30px;
+   width: 300px;
+   height: 405px;
+   float: left;
+   border: solid black 1px;
+   text-align: center;
+
+}
+
+article {
+    margin-left: 46px;
 }
 

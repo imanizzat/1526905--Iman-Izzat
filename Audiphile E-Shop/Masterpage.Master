@@ -16,12 +16,13 @@
     </header>
     <form id="form1" runat="server">
         <nav>
-            <a href="default.aspx">Home</a>
-            <a href="Headphones.aspx">| Headphones</a>
-            <a href="earphones.aspx">| IEMs & Earphones</a>
-            <a href="amplifiers.aspx">| Amplifiers</a>
-            <a href="source.aspx">| Source</a>
-        
+            <ul>
+                <li><a href="default.aspx">Home</a></li>
+                <li><a href="Headphones.aspx">| Headphones</a></li>
+                <li><a href="earphones.aspx">| IEMs & Earphones</a></li>
+                <li><a href="amplifiers.aspx">| Amplifiers</a></li>
+                <li><a href="source.aspx">| Source</a></li>
+            </ul>
         </nav>
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
