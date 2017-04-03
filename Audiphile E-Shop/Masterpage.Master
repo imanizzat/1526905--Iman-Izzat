@@ -7,50 +7,54 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="Stylesheet.css" rel="stylesheet" type="text/css"/>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link href="Stylesheet.css" rel="stylesheet" type="text/css" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
-    
+
 </head>
-    
+
 <body>
     <header>
-    <div class="box">
-        <div class="h-left">
-        <h1>Audiophile E-Shop</h1>
+        <div class="box">
+            <div class="h-left">
+                <h1>Audiophile E-Shop</h1>
             </div>
-    </div>
-    <div class="h-right">
-    <nav>
-            
+        </div>
+        <div class="h-right">
+            <nav>
+
                 <a href="~/default.aspx" class="myButton" runat="server">Home</a>
                 <a href="~/products.aspx" class="myButton" runat="server">Products</a>
                 <a href="~/contact.aspx" class="myButton" runat="server">Contact</a>
                 <a href="~/#" class="myButton" runat="server">Shopping cart</a>
-                <a href="~/account.aspx" class="myButton" runat="server">my account</a> 
-        
-        </nav>
+                <a href="~/account.aspx" class="myButton" runat="server">my account</a>
+                <div class="box">
+                    <form method="get" action="products.aspx" style="float: right;">
+                        <input name="field-keywords" type="text" placeholder="e.g headphone, earphone" />
+                        <button>Search</button>
+                    </form>
+                </div>
+            </nav>
         </div>
-        
-   </header>
-   
+
+    </header>
+
     <form id="form1" runat="server">
-   
-        
+
+
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-
-        
         </asp:ContentPlaceHolder>
-    
-     
-    </form>
-       <footer>           
-                <a href="#">facebook</a>
-          
-                <a href="About.aspx">About us</a>
 
-       </footer>
+
+    </form>
+   
+        <footer>
+        
+                <p>&copy;2017 1526905.Studentwebserver.com/CO5027. All Rights Reserved.</p>
+        
+        </footer>
+
 </body>
 
 </html>

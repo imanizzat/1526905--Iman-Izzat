@@ -5,29 +5,30 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="box">
         <section>
-        <table>
-            <tr>
-                <td>
-                    <asp:Label ID="Username" runat="server" Text="Username:"></asp:Label></td>
-                <td>
-                    <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <td>
-                    <asp:Label ID="Password" runat="server" Text="Password:"></asp:Label></td>
-                <td>
-                    <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox></td>
-            </tr>
-            <tr>
-                <td>
-                    <asp:Button ID="txtSignin" runat="server" Text="Sign In" /></td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Dont have an account? </p></td>
+            <table>
+                <tr>
+                    <td>
+                        <asp:Label ID="Username" runat="server" Text="Username:"></asp:Label></td>
+                    <td>
+                        <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="Password" runat="server" Text="Password:"></asp:Label></td>
+                    <td>
+                        <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Button ID="txtSignin" runat="server" Text="Sign In" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Dont have an account? </p>
+                    </td>
                     <td><a href="#">Register now!</a></td>
-            </tr>
-        </table>
-            </section>
+                </tr>
+            </table>
+        </section>
     </div>
 </asp:Content>

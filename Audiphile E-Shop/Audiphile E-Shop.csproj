@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="account.aspx" />
+    <Content Include="Image\background\347569-light-dark-blue-background.jpg" />
     <Content Include="Image\background\header.png" />
     <Content Include="Image\background\seamless-stone-background.jpg" />
     <Content Include="Image\Fiio A5\1.jpg" />
@@ -124,10 +125,7 @@
     <Content Include="about.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
-    <Content Include="Headphones.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Amplifiers.aspx" />
-    <Content Include="earphones.aspx" />
     <Content Include="Image\ATH-M50X\ath_m50x_1_sq.jpg" />
     <Content Include="Image\ATH-M50X\ath_m50x_2_sq.jpg" />
     <Content Include="Image\ATH-M50X\ath_m50x_3_sq.jpg" />
@@ -192,22 +190,8 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Headphones.aspx.cs">
-      <DependentUpon>Headphones.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Headphones.aspx.designer.cs">
-      <DependentUpon>Headphones.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="Amplifiers.aspx.cs">
-      <DependentUpon>Amplifiers.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Amplifiers.aspx.designer.cs">
-      <DependentUpon>Amplifiers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masterpage.Master.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
@@ -215,13 +199,6 @@
     </Compile>
     <Compile Include="Masterpage.Master.designer.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
-    </Compile>
-    <Compile Include="earphones.aspx.cs">
-      <DependentUpon>earphones.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="earphones.aspx.designer.cs">
-      <DependentUpon>earphones.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="source.aspx.cs">
