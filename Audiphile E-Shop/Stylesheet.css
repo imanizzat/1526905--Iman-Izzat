@@ -1,73 +1,51 @@
-﻿nav {
+﻿
+nav {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+}
+        nav a{
+      float: none;
+      display: inline-block;
+    }
+
+/*product display*/
+ul.products li{
+    list-style-type: none;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    *display: inline;
+    *zoom: 1;
     padding: 10px;
+
+}
+
+
+footer, header {
+    padding: 1em;
+    clear: left;
     text-align: center;
-    background-color: gainsboro;
-    padding: 14px 25px;
+    display: block;
     text-align: center;
-    text-decoration: none;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 22px;
-    color: white;
-    
-    
-  
-
-}
-ul{
-   display: inline-block;
-   list-style: none;
-   float: left;
-}
-ul li{
-    float: left;
 }
 
-ul li a {
-    color: white;
-}
-
-    nav a:link{
-         text-decoration: none;
-       
-    }
-
-    a:visited{
-        text-decoration:none;
-      
-    }
 
 
-    a:hover{
-    color: black;
-    text-decoration: underline;
-    
+	
+
+body {
+     
+      background-image: url('Image/background/seamless-stone-background.jpg');
+    /*background retrieved from: http://tiled-bg.blogspot.com/2014/01/seamless-stone-background.html */
 }
     
-a {
-    text-decoration-color: gray;
-}
-
-footer,li { 
-    text-align: center;
-    list-style:none;
-   	clear: left;  
-
-}
-
-body{
-    margin: 20px;
-
-}
-
 h1{
     text-align: center;
 }
 
 
-.box {
-    margin: 40px;
-}
+
 
 /*Homepage CSS*/
 
@@ -76,31 +54,43 @@ h1{
    
 }
 
-/*product display*/
 
-.products {
+section {
 
-  /* margin: 20px;
-   padding: 30px;
-   max-width: 300px;
-   height: 405px;
-   float: left;
-   border: solid black 1px;
-   text-align: center;
-   width: 474px;
-      */
-  display: inline-block;
-  margin: 10px;
-  padding: 30px;
-   width: 300px;
-   height: 405px;
-   float: left;
-   border: solid black 1px;
-   text-align: center;
-
+    text-align: center;
 }
 
-article {
-    margin-left: 46px;
+  /*nav design*/
+  .myButton {
+  /*-webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;*/
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #fc8f00;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
+.myButton:hover {
+  background: #f5c711;
+  text-decoration: none;
+}
+
+.contact{
+    
+   margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 600px;
+}
+.box {
+    width: 500px;
+    height: auto;
+}
+.map{
+   
+    display: inline;
+}

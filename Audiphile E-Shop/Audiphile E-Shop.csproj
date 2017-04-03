@@ -94,11 +94,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="account.aspx" />
+    <Content Include="Image\background\header.png" />
+    <Content Include="Image\background\seamless-stone-background.jpg" />
+    <Content Include="Image\Fiio A5\1.jpg" />
+    <Content Include="Image\Fiio A5\2.jpg" />
+    <Content Include="Image\Fiio A5\3.jpg" />
+    <Content Include="Image\Fiio A5\4.jpg" />
+    <Content Include="Image\Fiio e10k\1.jpg" />
+    <Content Include="Image\Fiio e10k\2.jpg" />
+    <Content Include="Image\Fiio e10k\3.jpg" />
+    <Content Include="Image\Fiio e10k\4.jpg" />
+    <Content Include="Image\Fiio e10k\5.jpg" />
+    <Content Include="Image\Fiio X5II\fiio x5.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Masterpage.Master" />
+    <Content Include="products.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -157,6 +171,13 @@
     <Compile Include="about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
+    <Compile Include="account.aspx.cs">
+      <DependentUpon>account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="account.aspx.designer.cs">
+      <DependentUpon>account.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -210,9 +231,17 @@
     <Compile Include="source.aspx.designer.cs">
       <DependentUpon>source.aspx</DependentUpon>
     </Compile>
+    <Compile Include="products.aspx.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products.aspx.designer.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Image\NewFolder1\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

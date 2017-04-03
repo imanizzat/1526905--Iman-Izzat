@@ -10,7 +10,7 @@
 namespace Audiphile_E_Shop {
     
     
-    public partial class gears {
+    public partial class WebForm1 {
         
         /// <summary>
         /// txtID01 control.
@@ -40,15 +40,6 @@ namespace Audiphile_E_Shop {
         protected global::System.Web.UI.WebControls.Button txtID03;
         
         /// <summary>
-        /// txtID04 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button txtID04;
-        
-        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -74,5 +65,14 @@ namespace Audiphile_E_Shop {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button3;
+        
+        /// <summary>
+        /// Button4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button4;
     }
 }

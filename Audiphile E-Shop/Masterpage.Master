@@ -8,22 +8,27 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="Stylesheet.css" rel="stylesheet" type="text/css"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+    
 </head>
     
 <body>
-    <header>
-        <h1>Audiophile E-Shop Ltd</h1>
-    </header>
+
+    
     <form id="form1" runat="server">
+   
         <nav>
-            <ul>
-                <li><a href="default.aspx">Home</a></li>
-                <li><a href="Headphones.aspx">| Headphones</a></li>
-                <li><a href="earphones.aspx">| IEMs & Earphones</a></li>
-                <li><a href="amplifiers.aspx">| Amplifiers</a></li>
-                <li><a href="source.aspx">| Source</a></li>
-            </ul>
+            
+                <a href="default.aspx"class="myButton">Home</a>
+                <a href="products.aspx"class="myButton">Products</a>
+                <a href="contact.aspx" class="myButton">Contact</a>
+                <a href="#" class="myButton">Shopping cart</a>
+                <a href="account.aspx" class="myButton">my account</a> 
+        
         </nav>
+
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
 
@@ -32,12 +37,12 @@
     </div>
      
     </form>
-       <footer>
-            <ul>
-                <li><a href="Contact.aspx">Contact us</a></li>
-                <li><a href="About.aspx">About us</a></li>
-            </ul>
-        </footer>
+       <footer>           
+                <a href="#">facebook</a>
+           <br />
+                <a href="About.aspx">About us</a>
+
+       </footer>
 </body>
 
 </html>
