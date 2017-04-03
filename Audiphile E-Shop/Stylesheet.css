@@ -1,5 +1,4 @@
-﻿
-nav {
+﻿nav {
     width: 100%;
     text-align: center;
     padding: 25px;
@@ -22,27 +21,35 @@ ul.products li{
 }
 
 
-footer, header {
-    padding: 1em;
-    clear: left;
-    text-align: center;
-    display: block;
-    text-align: center;
+header {
+    width:100%;
+    height:auto;
+    background-color:orange;
 }
 
+/*header design*/
 
+.h-left, 
+.h-right {
+    position:relative;
+    color:white;
+}
+.h-left{
+    width: 30%;
+    float:left;
+}
+.h-right{
+    text-align:right;
+}
 
 	
 
 body {
      
-      background-image: url('Image/background/seamless-stone-background.jpg');
+      /*background-image: url('Image/background/seamless-stone-background.jpg');*/
     /*background retrieved from: http://tiled-bg.blogspot.com/2014/01/seamless-stone-background.html */
 }
     
-h1{
-    text-align: center;
-}
 
 
 
@@ -58,6 +65,7 @@ h1{
 section {
 
     text-align: center;
+    display: inline-block;
 }
 
   /*nav design*/
@@ -68,7 +76,7 @@ section {
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  background: #fc8f00;
+ /* background: #fc8f00;*/
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -87,10 +95,14 @@ section {
     width: 600px;
 }
 .box {
-    width: 500px;
-    height: auto;
+    width: 70%;
+    margin: 0 auto;
 }
 .map{
    
     display: inline;
+}
+
+footer{
+
 }

@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section>
+    <div class="box">
     <ul class="products">
         <li>
             <img src="Image/ATH-M50X/ath_m50x_1_sq.jpg" alt="athm50x" width="200" height="150" />
@@ -61,6 +61,6 @@
 
         </li>
     </ul>
-        </section>
+        </div>
 
 </asp:Content>

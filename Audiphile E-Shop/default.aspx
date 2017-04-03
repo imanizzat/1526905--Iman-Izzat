@@ -2,10 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
   </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <SECTION>
+    <div class="box">
      <h2>Our Recommendation:</h2>
- 
-       
       <div id="images">
         
           <img alt="m50x" src="Image/ATH-M50X/homem50x.jpg"/>
@@ -14,7 +12,7 @@
     
       <p style="text-align:center;"> The critically acclaimed ATH-M50x by Audio Technica is so good that
          it is considered the best bang for you bucks headphone that you can get!</p>
-    </SECTION>
+   </div>
  
     
 </asp:Content>
