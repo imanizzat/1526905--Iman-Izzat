@@ -114,6 +114,7 @@
     </Content>
     <Content Include="Masterpage.Master" />
     <Content Include="products.aspx" />
+    <Content Include="Cart.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -159,7 +160,9 @@
     <Content Include="Image\Sennheiser Momentum 2.0\_vti_cnf\Momentum_1.jpg" />
     <Content Include="source.aspx" />
     <Content Include="Stylesheet.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="about.aspx.cs">
@@ -214,6 +217,13 @@
     </Compile>
     <Compile Include="products.aspx.designer.cs">
       <DependentUpon>products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

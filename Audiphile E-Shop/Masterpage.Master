@@ -51,7 +51,9 @@
    
         <footer>
         
-                <p>&copy;2017 1526905.Studentwebserver.com/CO5027. All Rights Reserved.</p>
+                <p>&copy;2017 1526905.Studentwebserver.com/CO5027. All Rights Reserved.
+                    <a href="#">Admin Login</a>
+                </p>
         
         </footer>
 
