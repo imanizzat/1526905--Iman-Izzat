@@ -11,7 +11,7 @@ namespace Audiphile_E_Shop
 {
 
 
-    public partial class WebForm2
+    public partial class cart
     {
     }
 }

@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="account.aspx" />
+    <Content Include="cart.aspx" />
     <Content Include="Image\background\347569-light-dark-blue-background.jpg" />
     <Content Include="Image\background\header.png" />
     <Content Include="Image\background\seamless-stone-background.jpg" />
@@ -114,7 +115,6 @@
     </Content>
     <Content Include="Masterpage.Master" />
     <Content Include="products.aspx" />
-    <Content Include="Cart.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -179,6 +179,13 @@
     <Compile Include="account.aspx.designer.cs">
       <DependentUpon>account.aspx</DependentUpon>
     </Compile>
+    <Compile Include="cart.aspx.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cart.aspx.designer.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -217,13 +224,6 @@
     </Compile>
     <Compile Include="products.aspx.designer.cs">
       <DependentUpon>products.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Cart.aspx.cs">
-      <DependentUpon>Cart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Cart.aspx.designer.cs">
-      <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
