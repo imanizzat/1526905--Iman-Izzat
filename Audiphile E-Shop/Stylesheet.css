@@ -14,8 +14,6 @@ ul.products li{
     width: 200px;
     display: inline-block;
     vertical-align: top;
-    *display: inline;
-    *zoom: 1;
     padding: 10px;
 
 }
@@ -32,7 +30,7 @@ header {
 .h-left, 
 .h-right {
     position:relative;
-    color:white;
+    color: white;
 }
 .h-left{
     width: 30%;
@@ -41,16 +39,6 @@ header {
 .h-right{
     text-align:right;
 }
-
-
-
-body {
-
-}
-    
-
-
-
 
 /*Homepage CSS*/
 
@@ -70,7 +58,7 @@ section {
   .myButton {
  
   font-family: Arial;
-  color: #ffffff;
+  color: white;
   font-size: 20px;
  
   padding: 10px 20px 10px 20px;
@@ -119,11 +107,13 @@ footer{
 
 footer a:link {
     color: white;
-    text-decoration: none;
+ 
     
 }
 
 footer a:hover{
     text-decoration: underline;
 }
+
+/*content css*/
 

@@ -27,11 +27,12 @@
                 <a href="~/default.aspx" class="myButton" runat="server">Home</a>
                 <a href="~/products.aspx" class="myButton" runat="server">Products</a>
                 <a href="~/contact.aspx" class="myButton" runat="server">Contact</a>
-                <a href="~/#" class="myButton" runat="server">Shopping cart</a>
+                <a href="~/Cart.aspx" class="myButton" runat="server">Shopping cart</a>
                 <a href="~/account.aspx" class="myButton" runat="server">my account</a>
                 <div class="box">
                     <form method="get" action="products.aspx" style="float: right;">
-                        <input name="field-keywords" type="text" placeholder="e.g headphone, earphone" />
+                        <label for="search">Search:</label>
+                        <input name="search" id="search" type="text" placeholder="e.g headphone, earphone" />
                         <button>Search</button>
                     </form>
                 </div>
@@ -48,14 +49,26 @@
 
 
     </form>
-   
-        <footer>
-        
-                <p>&copy;2017 1526905.Studentwebserver.com/CO5027. All Rights Reserved.
+
+    <footer>
+
+        <p>
+            &copy;2017 1526905.Studentwebserver.com/CO5027. All Rights Reserved.
                     <a href="#">Admin Login</a>
-                </p>
-        
-        </footer>
+        </p>
+        <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+        <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border: 0; width: 88px; height: 31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+
+
+    </footer>
 
 </body>
 
