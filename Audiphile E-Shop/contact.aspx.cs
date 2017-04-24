@@ -15,7 +15,7 @@ namespace Audiphile_E_Shop
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btnSubmitContact_Click(object sender, EventArgs e)
         {
             //Mail Server
             SmtpClient email = new SmtpClient();
@@ -32,16 +32,14 @@ namespace Audiphile_E_Shop
             //account to forward the message to
             MailMessage message = new MailMessage("1526905.Chester@gmail.com", "1526905.Chester@gmail.com");
 
-            message.Subject = "A question has been raised by a user of Audiophile E-Shop";
-            message.Body = txtMessage.Text;
+            message.Subject = txtSubject.Text;
+            message.Body += "From: " + txtFirst.Text + " " + txtLast.Text + "\n" + "Email: " + txtEmail.Text + "\n";
+            message.Body += "Message: " + txtMessage.Text;
 
 
             email.Send(message);
 
             txtMessage.Text = "";
-
-
-
         }
     }
 }

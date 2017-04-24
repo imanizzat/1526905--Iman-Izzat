@@ -1,9 +1,8 @@
-﻿<%@ Page Title="Contact | Audiophile Ltd" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Audiphile_E_Shop.contact" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Audiphile_E_Shop.contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="contact">
+     <div class="contact">
         <table>
             <tr>
                 <td>
@@ -48,7 +47,7 @@
 
                 <td></td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" /></td>
+                    <asp:Button ID="btnSubmitContact" runat="server" Text="Submit" OnClick="btnSubmitContact_Click" ></asp:Button></td>
             </tr>
 
 
@@ -56,6 +55,4 @@
 
 
     </div>
-
-
 </asp:Content>

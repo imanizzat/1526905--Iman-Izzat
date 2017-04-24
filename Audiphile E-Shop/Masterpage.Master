@@ -28,7 +28,7 @@
                 <a href="~/products.aspx" class="myButton" runat="server">Products</a>
                 <a href="~/contact.aspx" class="myButton" runat="server">Contact</a>
                 <a href="~/cart.aspx" class="myButton" runat="server">Shopping cart</a>
-                <a href="~/account.aspx" class="myButton" runat="server">my account</a>
+                <a href="~/login.aspx" class="myButton" runat="server">my account</a>
                 <div class="box">
                     <form method="get" action="products.aspx" style="float: right;">
                         <label for="search">Search:</label>
