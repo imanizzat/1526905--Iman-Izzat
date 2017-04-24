@@ -72,19 +72,15 @@ section {
 
 .contact{
     
-   margin: 20px;
+    margin: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    width: 600px;
+    width: 900px;
 }
 .box {
     width: 70%;
     margin: 0 auto;
-}
-.map{
-   
-    display: inline;
 }
 
 
@@ -115,5 +111,15 @@ footer a:hover{
     text-decoration: underline;
 }
 
-/*content css*/
+/*map*/
+
+#map{
+    height:100%;
+}
+
+/*Table design for contact*/
+
+.designTable{
+
+}
 

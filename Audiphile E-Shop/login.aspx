@@ -24,7 +24,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="txtSignin" runat="server" Text="Sign In" /></td>
+                        <asp:Button ID="txtSignin" runat="server" Text="Sign In" OnClick="txtSignin_Click" /></td>
                     <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
                 </tr>
                 <tr>

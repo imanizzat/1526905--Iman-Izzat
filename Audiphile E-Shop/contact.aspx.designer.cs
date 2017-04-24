@@ -31,6 +31,15 @@ namespace Audiphile_E_Shop {
         protected global::System.Web.UI.WebControls.TextBox txtFirst;
         
         /// <summary>
+        /// firstnameContactVal control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator firstnameContactVal;
+        
+        /// <summary>
         /// Label2 control.
         /// </summary>
         /// <remarks>

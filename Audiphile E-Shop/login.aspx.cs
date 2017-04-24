@@ -18,14 +18,20 @@ namespace Audiphile_E_Shop
             var userStore = new UserStore<IdentityUser>(identityDbContext);
             var userManager = new UserManager<IdentityUser>(userStore);
             var user = userManager.Find(txtUsername.Text, txtPassword.Text);
-            if (user != null)
+           
+        }
+
+        protected void txtSignin_Click(object sender, EventArgs e)
+        {
+            if (txtUsername.Text != null)
             {
-                //todo: log user in / instruct user to log in
+                Server.Transfer("SecurePage.aspx", true);
             }
             else
             {
-                //litLoginError.Text = "Invalid username or password.";
+                litLoginError.Text = "Invalid username or password.";
             }
+
         }
     }
 }
