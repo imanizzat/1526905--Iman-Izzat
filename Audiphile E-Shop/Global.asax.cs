@@ -21,7 +21,8 @@ namespace Audiphile_E_Shop
                 CdnDebugPath = "http://ajax.aspnetcdn.com/ajax/jQuery/jquery-" + JQueryVer + ".js",
                 CdnSupportsSecureConnection = true,
                 LoadSuccessExpression = "window.jQuery"
-            });
+            });
+
         }
     }
 }

@@ -1,27 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="Audiphile_E_Shop.register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style1 {
-            height: 29px;
-        }
-        .auto-style2 {
-            text-align: right;
-        }
-        .auto-style3 {
-            height: 29px;
-            text-align: right;
-        }
-        .auto-style4 {
-            height: 29px;
-            text-align: left;
-        }
-        .auto-style5 {
-            text-align: left;
-        }
-    </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <table class="auto-style1">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"><table class="auto-style1">
         <tr>
               <td class="auto-style2">
                 <asp:Label ID="Label7" runat="server" Text="Username:" style="text-align: right"></asp:Label></td>
@@ -109,7 +89,7 @@
                 
                 
                 
-                <asp:Button ID="btnRegister1" runat="server" Text="Register!" OnClick="btnRegister1_Click" style="text-align: center" />
+                <asp:Button ID="submitRegister" runat="server" Text="Register!" OnClick="submitRegister_Click" style="text-align: center" />
                
             </td>
             <td><asp:Literal ID="litRegError" runat="server"></asp:Literal></td>

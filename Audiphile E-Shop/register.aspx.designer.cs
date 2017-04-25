@@ -211,13 +211,13 @@ namespace Audiphile_E_Shop {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
         
         /// <summary>
-        /// btnRegister1 control.
+        /// submitRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnRegister1;
+        protected global::System.Web.UI.WebControls.Button submitRegister;
         
         /// <summary>
         /// litRegError control.

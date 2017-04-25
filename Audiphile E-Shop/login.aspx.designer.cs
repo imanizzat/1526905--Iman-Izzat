@@ -10,7 +10,7 @@
 namespace Audiphile_E_Shop {
     
     
-    public partial class account {
+    public partial class login {
         
         /// <summary>
         /// Username control.

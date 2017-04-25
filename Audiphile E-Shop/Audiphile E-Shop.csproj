@@ -142,10 +142,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="admin.aspx" />
+    <Content Include="Admin\admin.aspx" />
     <Content Include="contact.aspx" />
-    <Content Include="login.aspx" />
     <Content Include="cart.aspx" />
+    <Content Include="Email\HtmlTemplate.html" />
     <Content Include="Image\background\347569-light-dark-blue-background.jpg" />
     <Content Include="Image\background\header.png" />
     <Content Include="Image\background\seamless-stone-background.jpg" />
@@ -159,6 +159,7 @@
     <Content Include="Image\Fiio e10k\4.jpg" />
     <Content Include="Image\Fiio e10k\5.jpg" />
     <Content Include="Image\Fiio X5II\fiio x5.jpg" />
+    <Content Include="login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -217,7 +218,7 @@
     <Content Include="Image\Sennheiser Momentum 2.0\_vti_cnf\Momentum_1.jpg" />
     <Content Include="SecurePage.aspx" />
     <Content Include="source.aspx" />
-    <Content Include="Stylesheet.css" />
+    <Content Include="CSS\Stylesheet.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -230,11 +231,11 @@
     <Compile Include="about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin.aspx.cs">
+    <Compile Include="Admin\admin.aspx.cs">
       <DependentUpon>admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="admin.aspx.designer.cs">
+    <Compile Include="Admin\admin.aspx.designer.cs">
       <DependentUpon>admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
@@ -243,13 +244,6 @@
     </Compile>
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="cart.aspx.cs">
       <DependentUpon>cart.aspx</DependentUpon>
@@ -267,6 +261,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masterpage.Master.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>

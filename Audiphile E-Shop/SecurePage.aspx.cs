@@ -18,6 +18,7 @@ namespace Audiphile_E_Shop
         protected void logout_Click(object sender, EventArgs e)
         {
             HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+            Response.Redirect("login.aspx", true);
         }
     }
 }

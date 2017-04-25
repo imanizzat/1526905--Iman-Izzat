@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Mail;
 using System.Web;
@@ -16,30 +17,95 @@ namespace Audiphile_E_Shop
         }
 
         protected void btnSubmitContact_Click(object sender, EventArgs e)
+
         {
-            //Mail Server
-            SmtpClient email = new SmtpClient();
 
-            //host address
-            email.Host = "smtp.gmail.com";
-            email.Port = 587;
-            email.EnableSsl = true;
+            //code adapted from Debendra Dash (http://www.c-sharpcorner.com/UploadFile/33b051/sending-mail-with-html-template/)
+            try
+            {
 
-            //credentials
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("1526905.Chester@gmail.com", ")N%qfzq](");
-            email.Credentials = credentials;
+                string body = this.EmailBody(txtFirst.Text, txtLast.Text, txtEmail.Text, txtSubject.Text, txtMessage.Text);
 
-            //account to forward the message to
-            MailMessage message = new MailMessage("1526905.Chester@gmail.com", "1526905.Chester@gmail.com");
+                this.SendEmail("An enquire was received from:" + " " + txtFirst.Text + " " + txtLast.Text, body);
 
-            message.Subject = txtSubject.Text;
-            message.Body += "From: " + txtFirst.Text + " " + txtLast.Text + "\n" + "Email: " + txtEmail.Text + "\n";
-            message.Body += "Message: " + txtMessage.Text;
+                litResult.Text = "Your enquiry has been sent successfully!";
+        }
 
-
-            email.Send(message);
-
-            txtMessage.Text = "";
+            catch (Exception error)
+              {
+            litResult.Text = "Send failed: " + error.Message + ":" + error.InnerException + "";
         }
     }
-}
+
+
+        private string EmailBody(string firstName, string lastName, string emailAdd, string subject, string message)
+
+        {
+
+            string body = string.Empty;
+            
+            //link the template to the code
+            using (StreamReader reader = new StreamReader(Server.MapPath("~/Email/HtmlTemplate.html")))
+
+            {
+
+                body = reader.ReadToEnd();
+
+            }
+            //pushing the user's information to the email's template
+            body = body.Replace("{firstName}", firstName);  
+
+            body = body.Replace("{lastName}", lastName);
+
+            body = body.Replace("{emailAdd}", emailAdd);
+
+            body = body.Replace("{subject}", subject);
+
+            body = body.Replace("{message}", message);
+                    
+
+            return body;
+
+        }
+
+        private void SendEmail(string subject, string body)
+
+        {
+
+            using (MailMessage message = new MailMessage("1526905.Chester@gmail.com", "1526905.Chester@gmail.com"))
+
+            {
+
+              
+                SmtpClient email = new SmtpClient();
+                message.Subject = subject;
+
+                message.Body = body;
+
+                message.IsBodyHtml = true;
+
+                message.To.Add(new MailAddress("1526905.Chester@gmail.com"));
+
+                email.Host = "smtp.gmail.com";
+                email.Port = 587;
+                email.EnableSsl = true;
+                             
+                System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("1526905.Chester@gmail.com", ")N%qfzq](");
+
+                email.UseDefaultCredentials = true;
+
+                email.Credentials = credentials;
+
+                
+
+                email.Send(message);
+                //end of adapted code
+            }
+
+        }
+
+
+
+    }
+ }
+    

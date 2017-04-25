@@ -21,16 +21,10 @@ namespace Audiphile_E_Shop
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
-                LoginPath = new PathString("/Login.aspx")
+                LoginPath = new PathString("/SecurePage.aspx")
             });
         }
-        private void LogUserIn(UserManager<IdentityUser> usermanager, IdentityUser user)
-{
-    var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
-        var userIdentity = usermanager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
-        authenticationManager.SignIn(new AuthenticationProperties() { }, userIdentity);
-    //Note: user is automatically redirected if trying to access another page
-}
+ 
 
 }
 }

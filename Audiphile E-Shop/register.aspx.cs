@@ -13,10 +13,10 @@ namespace Audiphile_E_Shop
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
 
-        protected void btnRegister1_Click(object sender, EventArgs e)
+        protected void submitRegister_Click(object sender, EventArgs e)
         {
             //create a dbcontext that specified the connection string
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
@@ -28,14 +28,12 @@ namespace Audiphile_E_Shop
             IdentityResult result = manager.Create(user, txtRegisterPass.Text);
             if (result.Succeeded)
             {
-                Server.Transfer("login.aspx", true);
+                Server.Transfer("~/login.aspx", true);
             }
             else
             {
                 litRegError.Text = "An error has occurred: " + result.Errors.FirstOrDefault();
             }
-
-          
         }
     }
 }
