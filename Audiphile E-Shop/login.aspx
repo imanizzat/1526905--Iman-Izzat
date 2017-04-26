@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Audiphile_E_Shop.login" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -24,9 +25,10 @@
                 <tr>
                     <td>
                         <asp:Button ID="txtSignin" runat="server" Text="Sign In" OnClick="txtSignin_Click" />
-                       </td>
-                    <td> <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
-                 </td>
+                    </td>
+                    <td>
+                        <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
+                    </td>
                 </tr>
                 <tr>
                     <td>

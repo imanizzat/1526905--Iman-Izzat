@@ -148,15 +148,6 @@ namespace Audiphile_E_Shop {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator valTxtMessage;
         
         /// <summary>
-        /// litResult control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litResult;
-        
-        /// <summary>
         /// btnSubmitContact control.
         /// </summary>
         /// <remarks>
@@ -164,5 +155,14 @@ namespace Audiphile_E_Shop {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSubmitContact;
+        
+        /// <summary>
+        /// litResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litResult;
     }
 }

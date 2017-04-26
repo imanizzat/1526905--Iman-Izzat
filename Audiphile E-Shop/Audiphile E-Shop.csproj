@@ -146,6 +146,7 @@
     <Content Include="contact.aspx" />
     <Content Include="cart.aspx" />
     <Content Include="Email\HtmlTemplate.html" />
+    <Content Include="Email\UserEmailTemplate.html" />
     <Content Include="Image\background\347569-light-dark-blue-background.jpg" />
     <Content Include="Image\background\header.png" />
     <Content Include="Image\background\seamless-stone-background.jpg" />

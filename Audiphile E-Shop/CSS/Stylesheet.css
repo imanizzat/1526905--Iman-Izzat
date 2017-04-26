@@ -117,9 +117,7 @@ footer a:hover{
     height:100%;
 }
 
-/*Table design for contact*/
-
-.designTable{
-
+/*literal and validator color design*/
+.redColor {
+    text-decoration-color: red;
 }
-
