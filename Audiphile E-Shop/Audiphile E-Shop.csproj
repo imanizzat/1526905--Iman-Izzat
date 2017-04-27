@@ -217,6 +217,7 @@
     <Content Include="Image\Sennheiser Momentum 2.0\Momentum_5.jpg" />
     <Content Include="Image\Sennheiser Momentum 2.0\Momentum_6.jpg" />
     <Content Include="Image\Sennheiser Momentum 2.0\_vti_cnf\Momentum_1.jpg" />
+    <Content Include="Scripts\myGoogleMap.js" />
     <Content Include="SecurePage.aspx" />
     <Content Include="source.aspx" />
     <Content Include="CSS\Stylesheet.css" />

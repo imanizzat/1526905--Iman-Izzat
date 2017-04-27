@@ -81,15 +81,8 @@
 
         </table>
         <div id="map" style="width: 100%; height: 400px;"></div>
-        <script>
-            function myGoogleMap() {
-                var googleMap = {
-                    center: new google.maps.LatLng(4.88609074, 114.93137509),
-                    zoom: 20,
-                };
-                var map = new google.maps.Map(document.getElementById("map"), googleMap);
-            }
-        </script>
+       <script src="Scripts/myGoogleMap.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbtnjMabB66zCXYoa2VLiIjLHKAm9gXY8&callback=myGoogleMap"></script>
     </div>
 </asp:Content>
+

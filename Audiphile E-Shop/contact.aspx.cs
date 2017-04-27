@@ -32,7 +32,15 @@ namespace Audiphile_E_Shop
 
                 this.SendEmailToUser("Enquiry about: " + txtSubject.Text,bodyUser);
 
+                txtFirst.Text = "";
+                txtLast.Text = "";
+                txtEmail.Text = "";
+                txtSubject.Text = "";
+                txtMessage.Text = "";
+
                 litResult.Text = "Your enquiry has been sent successfully!";
+
+               
 
 
             }
@@ -106,6 +114,8 @@ namespace Audiphile_E_Shop
 
                 email.Send(message);
                 //end of adapted code
+
+               
             }
 
         }
@@ -165,6 +175,8 @@ namespace Audiphile_E_Shop
 
 
                 email.Send(message);
+
+               
             }
 
 
