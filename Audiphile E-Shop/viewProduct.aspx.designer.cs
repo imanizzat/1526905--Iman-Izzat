@@ -7,36 +7,45 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Audiphile_E_Shop {
+namespace Audiphile_E_Shop.product {
     
     
-    public partial class _default {
+    public partial class viewProduct {
         
         /// <summary>
-        /// txtID01 control.
+        /// litTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button txtID01;
+        protected global::System.Web.UI.WebControls.Literal litTitle;
         
         /// <summary>
-        /// txtID02 control.
+        /// litDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button txtID02;
+        protected global::System.Web.UI.WebControls.Literal litDate;
         
         /// <summary>
-        /// txtID03 control.
+        /// litBody control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button txtID03;
+        protected global::System.Web.UI.WebControls.Literal litBody;
+        
+        /// <summary>
+        /// imageControl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imageControl;
     }
 }

@@ -21,7 +21,7 @@ namespace Audiphile_E_Shop
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
-                LoginPath = new PathString("/SecurePage.aspx")
+                LoginPath = new PathString("/Admin/admin.aspx")
             });
         }
  

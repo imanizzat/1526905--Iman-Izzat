@@ -13,5 +13,20 @@ namespace Audiphile_E_Shop
         {
 
         }
+
+        protected void txtID01_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("viewProducts.aspx?Id={1}");
+        }
+
+        protected void txtID02_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("viewProducts.aspx?Id={2}");
+        }
+
+        protected void txtID03_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("viewProducts.aspx?Id={3}");
+        }
     }
 }

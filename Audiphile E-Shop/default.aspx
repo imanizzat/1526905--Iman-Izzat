@@ -3,18 +3,36 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="box">
-        <h2>Our Recommendation:</h2>
-        <div id="images">
+  <div class="box">
+      <h1>Welcome to Audiophile E-shop ltd</h1>
+      <p>The products below are our best sellers!</p>
+        <ul class="products">
+            <li>
+                <img src="Image/ATH-M50X/ath_m50x_1_sq.jpg" alt="athm50x" width="200" height="150" /><!-- Images retrieved from http://www.audio-technica.com/cms/headphones/99aff89488ddd6b1/ -->
+                <h4>Audio Technica m50x</h4>
+                <p>BNBND$255</p>
+                <asp:Button ID="txtID01" runat="server" Text="View product details" OnClick="txtID01_Click" />
 
-            <img alt="m50x" src="Image/ATH-M50X/homem50x.jpg" />
+            </li>
 
-        </div>
+            <li>
+                <img src="Image/Sennheiser Momentum 2.0/Momentum_1.jpg" alt="momentum_2" width="200" height="150" /> <!-- Images retrieved from http://en-uk.sennheiser.com/momentum-m2 -->
+                <h4>Sennheiser Momentum 2.0</h4>
+                <p>BNBND$385</p>
+                <asp:Button ID="txtID02" runat="server" Text="View product details" OnClick="txtID02_Click" />
 
-        <p style="text-align: center;">
-            The critically acclaimed ATH-M50x by Audio Technica is so good that
-         it is considered the best bang for you bucks headphone that you can get!
-        </p>
+            </li>
+
+            <li>
+                <img src="Image/Beyerdynamic dt770/DT770PRO_80_3c_01.jpg" alt="dt770" width="200" height="150" /> <!-- Images retrieved from http://north-america.beyerdynamic.com/shop/dt-770-pro.html -->
+                <h4>BeyerDynamic dt770 pro 250ohms</h4>
+                <p>BNBND$300</p>
+                <asp:Button ID="txtID03" runat="server" Text="View product details" OnClick="txtID03_Click" />
+                <br />
+            </li>
+
+           
+        </ul>
     </div>
 
 
