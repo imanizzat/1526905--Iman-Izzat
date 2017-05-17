@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="admin.aspx.cs" Inherits="Audiphile_E_Shop.admin" %>
+﻿<%@ Page Title="Admin" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="admin.aspx.cs" Inherits="Audiphile_E_Shop.admin" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -16,7 +16,7 @@
                 <td>
                     <asp:Label ID="lblAdminPassword" runat="server" Text="Admin Password:"></asp:Label></td>
                 <td>
-                    <asp:TextBox ID="txtAdminPassword" runat="server"></asp:TextBox><asp:Literal ID="litAdminLoginError" runat="server"></asp:Literal></td>
+                    <asp:TextBox ID="txtAdminPassword" runat="server" TextMode="Password"></asp:TextBox><asp:Literal ID="litAdminLoginError" runat="server"></asp:Literal></td>
             </tr>
             <tr>
                 <td>

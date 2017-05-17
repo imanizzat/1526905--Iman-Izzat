@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  <div class="box">
+    <div class="box">
       <h1>Welcome to Audiophile E-shop ltd</h1>
       <p>The products below are our best sellers!</p>
         <ul class="products">
@@ -16,7 +16,7 @@
             </li>
 
             <li>
-                <img src="Image/Sennheiser Momentum 2.0/Momentum_1.jpg" alt="momentum_2" width="200" height="150" /> <!-- Images retrieved from http://en-uk.sennheiser.com/momentum-m2 -->
+                <img src="Image/Sennheiser Momentum 2.0/Momentum_2.jpg" alt="momentum_2" width="200" height="150" /> <!-- Images retrieved from http://en-uk.sennheiser.com/momentum-m2 -->
                 <h4>Sennheiser Momentum 2.0</h4>
                 <p>BNBND$385</p>
                 <asp:Button ID="txtID02" runat="server" Text="View product details" OnClick="txtID02_Click" />

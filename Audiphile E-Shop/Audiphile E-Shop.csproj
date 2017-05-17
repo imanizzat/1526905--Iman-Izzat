@@ -167,16 +167,13 @@
     <Content Include="Image\Fiio e10k\4.jpg" />
     <Content Include="Image\Fiio e10k\5.jpg" />
     <Content Include="Image\Fiio X5II\fiio x5.jpg" />
-    <Content Include="login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Masterpage.Master" />
-    <Content Include="productDetails.aspx" />
     <Content Include="products.aspx" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
-    <Content Include="productsGridview.aspx" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
@@ -272,33 +269,12 @@
     <Compile Include="Admin\modifyProducts.aspx.designer.cs">
       <DependentUpon>modifyProducts.aspx</DependentUpon>
     </Compile>
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Masterpage.Master.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Masterpage.Master.designer.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
-    </Compile>
-    <Compile Include="productDetails.aspx.cs">
-      <DependentUpon>productDetails.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="productDetails.aspx.designer.cs">
-      <DependentUpon>productDetails.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="productsGridview.aspx.cs">
-      <DependentUpon>productsGridview.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="productsGridview.aspx.designer.cs">
-      <DependentUpon>productsGridview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="source.aspx.cs">

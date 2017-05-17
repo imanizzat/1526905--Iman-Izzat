@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="modifyProducts.aspx.cs" Inherits="Audiphile_E_Shop.gridview" %>
+﻿<%@ Page Title="Modify Products" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="modifyProducts.aspx.cs" Inherits="Audiphile_E_Shop.gridview" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -25,7 +25,7 @@
             </ItemTemplate>
             <FooterTemplate>
                 <asp:TextBox ID="txtName" runat="server" ></asp:TextBox>
-                     <asp:RequiredFieldValidator ID="rfvEditName" runat="server" 
+                     <asp:RequiredFieldValidator ID="valTxtName" runat="server" 
                     ErrorMessage="Product name is required"
                     ControlToValidate="txtName" Text="*" ForeColor="Red">
                 </asp:RequiredFieldValidator>
@@ -41,6 +41,10 @@
             </ItemTemplate>
             <FooterTemplate>
                 <asp:TextBox ID="txtSKU" runat="server" ></asp:TextBox>
+                   <asp:RequiredFieldValidator ID="valTxtSKU" runat="server" 
+                    ErrorMessage="Product SKU is required"
+                    ControlToValidate="txtSKU" Text="*" ForeColor="Red">
+                </asp:RequiredFieldValidator>
             </FooterTemplate>
 
         </asp:TemplateField>
@@ -53,6 +57,10 @@
             </ItemTemplate>
             <FooterTemplate>
                 <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
+                   <asp:RequiredFieldValidator ID="valTxtPrice" runat="server" 
+                    ErrorMessage="Product Price is required"
+                    ControlToValidate="txtPrice" Text="*" ForeColor="Red">
+                </asp:RequiredFieldValidator>
             </FooterTemplate>
 
         </asp:TemplateField>
@@ -65,6 +73,10 @@
             </ItemTemplate>
             <FooterTemplate>
                 <asp:TextBox ID="txtStocks" runat="server"></asp:TextBox>
+                   <asp:RequiredFieldValidator ID="valTxtStocks" runat="server" 
+                    ErrorMessage="Product name is required"
+                    ControlToValidate="txtStocks" Text="*" ForeColor="Red">
+                </asp:RequiredFieldValidator>
             </FooterTemplate>
 
         </asp:TemplateField>
